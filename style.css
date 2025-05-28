@@ -1,0 +1,917 @@
+html{
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    height: 110vh;
+    background-color: rgb(0, 0, 0, 50%);
+    scroll-behavior: smooth;
+}
+
+.fundo{
+    background-image: url(h1_hero1.webp); 
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    height: 110vh;
+    background-color: rgb(17, 17, 17, 50%);
+}
+
+body{
+    margin: 0;
+    height: 810vh;
+    background-color: #0B0016;
+    font-family: "Questrial", sans-serif;
+    color: white;
+}
+
+#logobelara{
+    position: absolute;
+    left: 145px;
+    top: 35px;
+    cursor: pointer;
+}
+
+a{text-decoration: none; color: white; font-family: "Questrial", sans-serif;}
+
+.btn_free {
+    background-color: #D6A04C;
+    border: solid #D6A04C 1px;
+    width: 159px;
+    height: 45px;
+    font-size: 16px;
+    position: absolute;
+    top: 35px;
+    left: 75%;
+    line-height: 45px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.btn_free:hover{
+    background-color: transparent;
+    color: #D6A04C;
+    transition: 0.3s;
+}
+
+#menu {
+    display: inline-block;
+    height: 10px;
+    width: 2.5%;
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+    position: absolute;
+    top: 50px;
+    left: 87%;
+}
+
+.telefone{color: white;
+    text-decoration: none;
+    font-family: "Questrial", sans-serif;
+    position: absolute;
+    top: 47px;
+    left: 64%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.salt{
+    position: absolute;
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    top: 310px;
+    left: 280px;
+}
+
+.Homeownership{
+    position: absolute;
+    font-family: "Cabin", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.2;
+    width: 30%;
+    top: 290px;
+    left: 280px;
+    color: white;
+
+}
+
+.play {
+    position: absolute;
+    top: 400px;
+    left: 80%;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    outline: 2px solid #D6A04C;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 0px 20px rgba(179, 177, 177, 0.1);
+    font-size: 30px;
+    color: #D6A04C;
+    padding-right: 2px;
+    padding-top: 5px;
+    transition: 0.3s;
+}
+.play:hover{
+    background-color: #D6A04C;
+    color: #E9E3D9;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#textoplay{
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  font-family: "Questrial", sans-serif;
+  font-size: 20px;
+  left: 72%;
+  top: 400px;
+  color: white;
+}
+
+.blocoamarelo{
+    background-color: #D6A04C;
+    width: 60%;
+    height: 112px;
+    position: absolute;
+    left: 40%;
+    top: 95.6%;
+}
+
+.ti-mouse{
+    color: #D6A04C;
+    position: absolute;
+    top: 96.5%;
+    left: 280px;
+    font-size: 225%;
+}
+
+#aboutus{
+    position: absolute;
+    font-family: "Cabin", sans-serif;
+    line-height: 1.3;
+    font-size: 50px;
+    top: 1040px;
+    left: 140px;
+}
+
+.belarais{
+    position: absolute;
+    width: 416px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 1.5;
+    top: 1130px;
+    left: 270px;
+}
+
+.thestudio{
+    position: absolute;
+    font-size: 18px;
+    width: 416px;
+    top: 1155px;
+    left: 50%; 
+    font-weight: lighter;
+}
+
+.about1{
+    position: absolute;
+    left: 270px;
+    top: 1370px;
+}
+
+.about2{
+    position: absolute;
+    left: 50%;
+    top: 1460px;
+}
+
+.btnlearn{
+    position: absolute;
+    left: 50%;
+    top: 1360px;
+    border: 1px solid #D6A04C;
+    font-size: 16px;
+    background-color: transparent;
+    color: #E9E3D9;
+    width: 149px;
+    height: 54px;
+    transition: 0.3s;
+}
+
+.btnlearn:hover{
+    background-color: #D6A04C;
+    color: #E9E3D9;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.whatwe{
+    position: absolute;
+    top: 1900px;
+    font-family: "Cabin", sans-serif;
+    font-size: 50px;
+    left: 140px;
+}
+
+.commercial{
+    position: absolute;
+    left: 140px;
+    top: 2080px;
+    width: 320px;
+    height: 380px;
+    transition: 0.3s;
+}
+
+.blogim{
+    width: 416px;
+    height: 361px;
+}
+
+.commercial::after {
+    position: absolute;
+    content: '';
+    height: 361px;
+    width: 416px;
+    inset: 0;
+    opacity: 0;
+    background-color: #5c5c5c;
+}
+
+.commercial:hover::after {
+    opacity: 0.6;
+    cursor: auto;
+    transition: 0.35s ease-out;
+}
+
+.ti-arrow-right2{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top:155px;
+    left: 185px;
+    background-color: #ffffff;
+    border: #ffffff;
+    font-size: 14px;
+    opacity: 0;
+    z-index: 1
+}
+
+.commercial:hover .ti-arrow-right2 {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.35s ease-out;
+} 
+
+.commercial:hover {
+    top: 2100px;
+    transition: 0.35s ease-out;
+}
+
+.Commercial2{
+    color: #ffffff;
+    font-size: 32px;
+    position: absolute;
+    top: 380px;
+}
+
+.commercial:hover .Commercial2 {
+    color: #D6A04C;
+    transition: 0.35s ease-out;
+}
+
+.ArcDesign{
+    font-size: 14px;
+    color: #E9E3D9;
+    position: absolute;
+    top: 440px;
+}
+
+.residencial{
+    position: absolute;
+    top: 2080px;
+    left: 580px;
+    width: 320px;
+    height: 380px;
+    transition: 0.3s;
+}
+
+.ResidentialT{
+    color: #ffffff;
+    font-size: 32px;
+    position: absolute;
+    top: 380px;   
+}
+
+.residencial::after {
+    position: absolute;
+    content: '';
+    height: 361px;
+    width: 416px;
+    inset: 0;
+    opacity: 0;
+    background-color: #5c5c5c;
+}
+
+.residencial:hover::after {
+    opacity: 0.6;
+    cursor: auto;
+    transition: 0.35s ease-out;
+}
+
+.residencial:hover .ti-arrow-right2 {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.35s ease-out;
+}
+
+.residencial:hover {
+    top: 2100px;
+    transition: 0.35s ease-out;
+}
+
+.residencial:hover .ResidentialT {
+    color: #D6A04C;
+    transition: 0.35s ease-out;
+}
+
+.Architecture{
+    position: absolute;
+    top: 2080px;
+    left: 64.4%;
+    width: 320px;
+    height: 380px;
+    transition: 0.3s;
+}
+
+.ArchitectureT{
+    color: #ffffff;
+    font-size: 32px;
+    position: absolute;
+    top: 380px;   
+}
+
+.Architecture::after {
+    position: absolute;
+    content: '';
+    height: 361px;
+    width: 416px;
+    inset: 0;
+    opacity: 0;
+    background-color: #5c5c5c;
+}
+
+.Architecture:hover::after {
+    opacity: 0.6;
+    cursor: auto;
+    transition: 0.35s ease-out;
+}
+
+.Architecture:hover .ti-arrow-right2 {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.35s ease-out;
+}
+
+.Architecture:hover {
+    top: 2100px;
+    transition: 0.35s ease-out;
+}
+
+.Architecture:hover .ArchitectureT {
+    color: #D6A04C;
+    transition: 0.35s ease-out;
+}
+
+.projectscinza{
+    height: 915.63px;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    position: absolute;
+    top: 343vh;
+}
+
+.projects{
+    position: absolute;
+    width: 1296px;
+    height: 215px;
+    font-size: 215px;
+    font-family: "Cabin", sans-serif;
+    color: #2A2A2A;
+    left: 150px;
+    top: -133px;
+    -webkit-text-stroke: 1px #E9E3D9;
+    -webkit-text-fill-color: transparent;   
+}
+
+.projectsimg{
+    position: absolute;
+    left: 145px;
+    top: 236px;
+}
+
+.blocoamarelo2{
+    position: absolute;
+    background-color: #D6A04C;
+    width: 746px;
+    height: 196.38px;
+    left: 145px;
+    top: 820px;
+    transition: 0.4s;
+}
+
+.blocoamarelo2:hover{
+    background-color: #2A2A2A;
+    transition: 0.4s;
+}
+
+.casala{
+    position: absolute;
+    font-size: 32px;
+    color: #ffffff;
+    width: 55%;
+    left: 10%;
+    top: 15%;
+    transition: 0.4s;
+}
+
+.blocoamarelo2:hover .casala{
+    color: #D6A04C;
+    transition: 0.4s;
+}
+
+.ArcDesign2{
+    font-size: 14px;
+    color: #E9E3D9;
+    position: absolute;
+    left: 10%;
+    top: 65%;
+}
+
+.ti-arrow-right3{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: #fff;
+    border: 0;
+    position: absolute;
+    left: 85%;
+    top: 35%;
+    font-size: 100%;
+    transition: 0.4;
+}
+
+.blocoamarelo2:hover .ti-arrow-right3{
+    background-color: #D6A04C;
+    transition: 0.4;
+
+}
+
+.about3{
+    position: absolute;
+    left: 145px;
+    top: 3900px;
+}
+
+.whyus{
+    position: absolute;
+    left: 65%;
+    top: 3960px;
+    color: #E9E3D9;
+    font-size: 50px;
+    font-family: "Cabin", sans-serif;
+}
+
+.BelaraNakameguro{
+    font-size: 27px;
+    color: #E9E3D9;
+    font-family: "Questrial", sans-serif;
+    position: absolute;
+    left: 65%;
+    top: 4060px;
+    width: 416px;
+    height: 243px;
+}
+
+.btnlearn2{
+    position: absolute;
+    left: 65%;
+    top: 4330px;
+    border: 1px solid #D6A04C;
+    font-size: 16px;
+    background-color: transparent;
+    color: #E9E3D9;
+    width: 149px;
+    height: 54px;
+}
+
+.cinza2{
+    height: 75vh;
+    width: 100%;
+    background-color: #0A0A0A;
+    position: absolute;
+    top: 4444px;
+}
+
+.belaraisan{
+    position: absolute;
+    color: #C1C1C1;
+    font-size: 24px; 
+    font-family: "Questrial", sans-serif;
+    text-align: center;
+    width: 63%;
+    left: 200px;
+    top: 34px;
+    line-height: 1.5;
+}
+
+.divdcinza{
+    width: 1076px;
+    height: 310px;
+    position: absolute;
+    background-color: #0A0A0A;
+    left: 253px;
+    top: 135px;
+}
+
+.testisvg{
+    position: absolute;
+    left: 520px;
+}
+
+.veio{
+    position: absolute;
+    left: 500px;
+    top: 187px;
+}
+
+.arrobaveio{
+    position: absolute;
+    font-size: 12px;
+    font-family: "Questrial", sans-serif;
+    left: 450px;
+    top: 270px;
+}
+
+.ti-angle-right{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    position: absolute;
+    left: 100%;
+    top: 145px;
+}
+
+.ti-angle-left{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    position: absolute;
+    right: 100%;
+    top: 145px;
+}
+
+.ArchitectureDesign{
+    width: 1296px;
+    height: 302px;
+    background: none;
+    border: 1px solid #4B4B4B;
+    position: absolute;
+    top: 5022px;
+    left: 10%;
+    transition: 0.3s;
+}
+
+.ArchitectureDesign:hover{
+    background-color: #2A2A2A;
+    transition: 0.3s;
+}
+
+.singleroom{
+    position: absolute;
+    top: 34px;
+    left: 35px;
+}
+
+.ArchitectureDesigntxt{
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 320px;
+    top: 50px;
+}
+
+.Curating{
+    font-size: 32px;
+    position: absolute;
+    left: 320px;
+    top: 70px;
+    width: 500px;
+    height: 76.78px;
+    font-family: "Cabin", sans-serif;
+    color: #ffffff;
+}
+
+.ArchitectureDesign:hover .Curating{
+    color: #D6A04C;
+    transition: 0.3s;
+}
+
+
+.data{
+    font-size: 14px;
+    font-family: "Questrial", sans-serif;
+    position: absolute;
+    left: 320px;
+    top: 190px;
+}
+
+.ti-arrow-right{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: #fff;
+    border: 0;
+    position: absolute;
+    left: 92%;
+    top: 120px;
+    font-size: 100%;
+    transition: 0.3;
+}
+
+.ArchitectureDesign:hover .ti-arrow-right{
+    background-color: #D6A04C;
+    transition: 0.3s;
+}
+
+.ArchitectureDesign2{
+    width: 1296px;
+    height: 302px;
+    background: none;
+    border: 1px solid #4B4B4B;
+    position: absolute;
+    top: 5362px;
+    left: 10%;
+    transition: 0.3s;
+}
+
+.ArchitectureDesign2:hover{
+    background-color: #2A2A2A;
+    transition: 0.3s;
+}
+
+.singleroom2{
+    position: absolute;
+    top: 34px;
+    left: 35px;
+}
+
+.ArchitectureDesigntxt2{
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 320px;
+    top: 50px;
+}
+
+.Curating2{
+    font-size: 32px;
+    position: absolute;
+    left: 320px;
+    top: 70px;
+    width: 500px;
+    height: 76.78px;
+    font-family: "Cabin", sans-serif;
+    color: #ffffff;
+}
+
+.ArchitectureDesign2:hover .Curating2{
+    color: #D6A04C;
+    transition: 0.3s;
+}
+
+.ArchitectureDesign2:hover .ti-arrow-right{
+    background-color: #D6A04C;
+    transition: 0.3s;
+}
+
+.data2{
+    font-size: 14px;
+    font-family: "Questrial", sans-serif;
+    position: absolute;
+    left: 320px;
+    top: 190px;
+}
+
+.rodapé{
+    width: 100%;
+    height: 530px;
+    position: absolute;
+    top: 5830px;
+    background-color: rgb(30, 30, 30);
+}
+
+.Belara2{
+    position: absolute;
+    left: 128px;
+    top: 128px;
+}
+
+.Homeownershipnever{
+    position: absolute;
+    font-size: 20px;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.8);
+    width: 35%;
+    font-family: "Questrial", sans-serif;
+    left: 30px;
+    top: 10px;
+}
+
+.World-class{
+    position: absolute;
+    font-size: 20px;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.8);
+    width: 35%;
+    font-family: "Questrial", sans-serif;
+    top: 10px;
+    left: 44%;
+}
+
+.QuickLinks{
+    position: absolute;
+    top: 128px;
+    left: 360px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.Services{
+    position: absolute;
+    top: 128px;
+    left: 570px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.Newsletter{
+    position: absolute;
+    top: 128px;
+    left: 66%;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.Work{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 360px;
+    top: 200px;
+}
+
+.Services2{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 360px;
+    top: 240px;
+}
+
+.Products{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 360px;
+    top: 280px;
+}
+
+.TipsTricks{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 360px;
+    top: 320px;
+}
+
+.FAQ{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 570px;
+    top: 200px;
+}
+
+.SubmitTicket{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 570px;
+    top: 240px;
+}
+
+.ContactUs{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 570px;
+    top: 280px;
+}
+
+.Subscribe{
+    color: #A4A6AE;
+    font-size: 16px;
+    position: absolute;
+    font-family: "Questrial", sans-serif;
+    left: 66%;
+    top: 200px;
+}
+
+.email{
+    position: absolute;
+    width: 416px;
+    height: 60px;
+    left: 66%;
+    top: 240px;
+    border-radius: 5%;
+}
+
+.btnemail{
+    background-color: #D6A04C;
+    height: 65px;
+    width: 80px;
+    position: absolute;
+    top: 241px;
+    left: 87.7%;
+    cursor: pointer;
+}
+
+.ti-facebook{
+    position: absolute;
+    left: 66%;
+    top: 370px;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ti-facebook:hover{
+    transform: rotateY(180deg);
+    transition: 0.4s;
+}
+
+.ti-instagram{
+    position: absolute;
+    left: 69%;
+    top: 370px;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ti-instagram:hover{
+    transform: rotateY(180deg);
+    transition: 0.4s;
+}
+
+.ti-linkedin{
+    position: absolute;
+    left: 72%;
+    top: 370px;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ti-linkedin:hover{
+    transform: rotateY(180deg);
+    transition: 0.4s;
+}
+
+.ti-youtube{
+    position: absolute;
+    left: 75%;
+    top: 370px;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ti-youtube:hover{
+    transform: rotateY(180deg);
+    transition: 0.4s;
+}
